@@ -1,0 +1,33 @@
+table {
+  border: solid 1px rgb(36, 152, 182);
+  border-collapse: collapse;
+}
+
+thead {
+  color: white;
+  background-color: rgb(36, 152, 182);
+}
+
+th, td {
+  padding: 9px;
+}
+
+tr {
+  border-top: solid 1px rgb(36, 152, 182);
+}
+
+tr:nth-child(even) {
+  background: rgb(219, 219, 219);
+}
+
+td:first-child {
+text-align: left;
+font-weight: bold;
+}
+th:first-child {
+  text-align: left;
+}
+
+td {
+  text-align: center;
+}
